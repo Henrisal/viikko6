@@ -25,7 +25,7 @@ public class App
                 switch(i) {
 
                     case 1:
-                    System.out.println("Minkå kulkuneuvon haluat rakentaa? 1) auto, 2) lentokone, 3) laiva");
+                    System.out.println("Minkä kulkuneuvon haluat rakentaa? 1) auto, 2) lentokone, 3) laiva");
                     stringInput = sc.nextLine();
                     i = Integer.parseInt(stringInput);
 
@@ -33,7 +33,7 @@ public class App
                     String mf = sc.nextLine();
                     System.out.println("Anna kulkuneuvon malli:");
                     String md = sc.nextLine();
-                    System.out.println("Anna kulkuneuvon huippunopeus");
+                    System.out.println("Anna kulkuneuvon huippunopeus:");
                     String speedstring = sc.nextLine();
                     int speed = Integer.parseInt(speedstring);
                     if(i == 1) {
